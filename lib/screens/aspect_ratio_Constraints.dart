@@ -11,8 +11,7 @@ class AspectRatioConstraintExample extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Container(
-          color: Colors.red,
+        child: ConstrainedBox(
           constraints: const BoxConstraints(
             minWidth: 100.0,
             minHeight: 100.0,

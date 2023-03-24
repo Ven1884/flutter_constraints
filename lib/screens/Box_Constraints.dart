@@ -15,9 +15,9 @@ class BoxConstraintExample extends StatelessWidget {
           color: Colors.red,
           constraints: const BoxConstraints(
             minWidth: 100.0,
-            minHeight: 100.0,
-            maxWidth: 200.0,
-            maxHeight: 200.0,
+            minHeight: 200.0,
+            maxWidth: 300.0,
+            maxHeight: 300.0,
           ),
           child: const Text('This is a container with box constraints'),
         ),

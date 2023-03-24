@@ -14,10 +14,10 @@ class AlignmentConstraintExample extends StatelessWidget {
         child: Container(
           color: Colors.red,
           constraints: const BoxConstraints(
-            minWidth: 100.0,
-            minHeight: 100.0,
-            maxWidth: 200.0,
-            maxHeight: 200.0,
+            minWidth: 150.0,
+            minHeight: 150.0,
+            maxWidth: 250.0,
+            maxHeight: 250.0,
           ),
           child: const Align(
             alignment: Alignment.center,
